@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/overview/main",
+    "pages/interbank/main",
+    "pages/groupmoney/main"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/subPackages/detail",
+      "pages": ["main"]
+    },
+    {
+      "root": "pages/subPackages/list",
+      "pages": ["main"]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0b1026",
+    "backgroundColor": "#0b1026",
+    "navigationBarTitleText": "经营分析",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#6C7390",
+    "backgroundColor": "#23283C",
+    "selectedColor": "#119CFD",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "总览",
+        "pagePath": "pages/overview/main",
+        "iconPath": "static/tabs/overview-d@2x.png",
+        "selectedIconPath": "static/tabs/overview-press@2x.png"
+      },
+      {
+        "text": "财务",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/finance-d@2x.png",
+        "selectedIconPath": "static/tabs/finance-press@2x.png"
+      },
+      {
+        "text": "同业",
+        "pagePath": "pages/interbank/main",
+        "iconPath": "static/tabs/interbank-d@2x.png",
+        "selectedIconPath": "static/tabs/interbank-press@2x.png"
+      },
+      {
+        "text": "团金",
+        "pagePath": "pages/groupmoney/main",
+        "iconPath": "static/tabs/groupmoney.png",
+        "selectedIconPath": "static/tabs/groupmoney-active.png"
+      }
+    ],
+    "items": [{
+      "name": "总览",
+      "pagePath": "pages/overview/main",
+      "icon": "static/tabs/overview-d@2x.png",
+      "activeIcon": "static/tabs/overview-press@2x.png"
+    }, {
+      "name": "财务",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/finance-d@2x.png",
+      "activeIcon": "static/tabs/finance-press@2x.png"
+    }],
+    "position": "bottom"
+  }
+}
