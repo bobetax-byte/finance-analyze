@@ -1,6 +1,6 @@
 # fin-mpvue
 
-> A Mpvue project
+> Finance-analyze
 
 ## Build Setup
 
